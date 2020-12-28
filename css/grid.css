@@ -1,0 +1,134 @@
+@media only screen and (max-width: 1200px) {
+  .text {
+    top: 140px;
+  }
+
+  .subtext{
+    top: 150px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .text {
+    top: 110px;
+    font-size: 1.5em;
+  }
+
+  .subtext{
+    top: 120px;
+    font-size: 1em;
+  }
+
+  .bodycolour{
+    height: 100%;
+  }
+
+  .navbar-toggler{
+    border: none;
+  }
+
+  .navbar-toggler:focus{
+    outline: none;
+  }
+
+  .ml-auto, .mx-auto {
+    margin-left: 38.5em!important;
+    text-align: right;
+    width: 13%;
+  }
+
+  .navbar-brand{
+    margin-left: 1em;
+  }
+
+@media only screen and (max-width: 767px) {
+  .text {
+    top: 70px;
+    font-size: 1em;
+  }
+
+  .subtext{
+    top: 80px;
+    font-size: .75em;
+  }
+
+  .bodycolour{
+    height: auto;
+  }
+
+  .navbar-toggler{
+    border: none;
+  }
+
+  .navbar-toggler:focus{
+    outline: none;
+  }
+
+  .ml-auto, .mx-auto {
+    margin-left: 27.5em!important;
+    text-align: right!important;
+    width: 16.75%;
+  }
+
+  .navbar-brand{
+    margin-left: 1em;
+  }
+
+  .contacttext{
+    padding-bottom: 15em;
+  }
+
+  #cr{
+    position: absolute;
+    right: 2em;
+    top: -20px;
+  }
+
+@media only screen and (max-width: 575px) {
+  .text {
+    top: 35%;
+    font-size: 3vh;
+    position: relative;
+  }
+
+  .subtext{
+    top: 40%;
+    font-size: 2.25vh;
+    position: relative;
+  }
+
+  .bodycolour{
+    height: auto;
+  }
+
+  .navbar-toggler{
+    border: none;
+  }
+
+  .navbar-toggler:focus{
+    outline: none;
+  }
+
+  .ml-auto, .mx-auto {
+    margin-left: 68vw!important;
+    text-align: right!important;
+    width: 24.75%;
+  }
+
+  .topbuffer{
+    margin-top: 2em;
+  }
+
+  .navbar-brand{
+    margin-left: 1.5em;
+  }
+
+  .contacttext{
+    padding-bottom: 10em;
+  }
+
+  #cr{
+    position: absolute;
+    right: 2em;
+    top: -20px;
+  }
